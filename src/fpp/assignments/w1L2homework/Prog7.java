@@ -15,8 +15,10 @@ public class Prog7 {
 	}
 }
 
-//inputs::java andriod .net c# angularjs
-/*############Output###################
+//
+/*############Input and Output###################
+ Input=> Inputs::java andriod .net c# angularjs
+ Output=>
 java: 4
 andriod: 7
 .net: 4

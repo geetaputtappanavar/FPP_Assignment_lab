@@ -5,30 +5,25 @@ import java.util.Arrays;
 //remove duplicates
 public class Prog6 {
 	public static void main(String[] args) {
-		String[] strArr = {"horse", "dog", "cat", "horse","dog"};
-		/*String[] strArrWithOutDup = new String[strArr.length];
-		boolean dupFlag = false;
-		int count = 0;*/
-		for(int i=0;i<strArr.length;i++) {
-			for(int j=0;j<strArr.length;j++) {
-				if(i!=j) {
-				if(strArr[i]==strArr[j]) {
-					//dupFlag = true;
-					strArr[j] = null;
+		String[] strArr = {"horse", "dog", "cat", "horse", "dog"};
+		int strArrLength = strArr.length;
+		for(int i=0;i<strArrLength;i++){
+			for(int j=i+1;j<strArrLength;j++){
+				if(strArr[i]==strArr[j]){
+					strArr[j]=strArr[strArrLength-1];
+					strArrLength--;
+					j--;
 				}
 			}
-				/*if(!dupFlag) {
-					strArrWithOutDup[count] = strArr[j];
-					count++;
-				}*/
-			}
-			
 		}
-		System.out.println(Arrays.toString(strArr));
+		
+		String[] strArrWithoutDup = Arrays.copyOf(strArr, strArrLength);
+		System.out.println(Arrays.toString(strArrWithoutDup));
 	}
 }
 
 
-/*#############Output###########
+/*#############Input and Output###########
+Input: {"horse", "dog", "cat", "horse", "dog"}
 
-[horse, dog, cat, null, null]*/
+Output: [horse, dog, cat]*/

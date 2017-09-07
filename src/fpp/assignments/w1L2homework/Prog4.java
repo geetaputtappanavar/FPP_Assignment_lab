@@ -12,6 +12,6 @@ public class Prog4 {
 	}
 }
 
-/*############Output:###################
-	Given String: life is beautiful
-	Reversed string with out using Java API: lufituaeb si efil*/
+/*############Input and Output:###################
+	Input=>Given String: life is beautiful
+	Output=>Reversed string with out using Java API: lufituaeb si efil*/
