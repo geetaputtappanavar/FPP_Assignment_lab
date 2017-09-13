@@ -30,3 +30,35 @@ public class Test {
 		System.out.println("\n"+objAfterDeepClone);
 	}
 }
+
+/*
+Input and Output:
+Output:
+	Before making Changes: 
+		Customer name: Geeta
+		Manufacturer: HP
+
+		Customer name: Geeta
+		Manufacturer: HP
+
+		After making changes
+		Customer name: Julie
+		Manufacturer: Thoshiba
+
+		Customer name: Geeta
+		Manufacturer: Thoshiba
+		############Deep Clone##########
+		Before making Changes: 
+		Customer name: Geeta
+		Manufacturer: HP
+
+		Customer name: Geeta
+		Manufacturer: HP
+
+		After making changes
+		Customer name: Julie
+		Manufacturer: Thoshiba
+
+		Customer name: Geeta
+		Manufacturer: HP
+*/
