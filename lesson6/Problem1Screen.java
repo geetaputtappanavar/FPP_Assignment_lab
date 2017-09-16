@@ -25,17 +25,17 @@ public class Problem1Screen extends JFrame implements ActionListener{
 		countButton = new JButton("Count Letters");
 		countButton.setBounds(30, 30, 150, 25);
 		frame.add(countButton);
-		obj.countLetters(countButton);
+		obj.callAction(countButton);
 		
 		revButton = new JButton("Reverse Letters");
 		revButton.setBounds(30, 70, 150, 25);
 		frame.add(revButton);
-		obj.countLetters(revButton);
+		obj.callAction(revButton);
 		
 		remDupButton = new JButton("Remove Duplicates");
 		remDupButton.setBounds(30, 110, 150, 25);
 		frame.add(remDupButton);
-		obj.countLetters(remDupButton);
+		obj.callAction(remDupButton);
 		
 		JLabel inLabel = new JLabel("Input");
 		inLabel.setBounds(200, 30, 50, 20);
@@ -56,7 +56,7 @@ public class Problem1Screen extends JFrame implements ActionListener{
 		frame.add(outText);
 	}
 
-	public void countLetters(JButton countButton) {
+	public void callAction(JButton countButton) {
 		countButton.addActionListener(this);
 	}
 	@Override
