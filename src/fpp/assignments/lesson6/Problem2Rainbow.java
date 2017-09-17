@@ -107,3 +107,5 @@ public class Problem2Rainbow extends JFrame implements ActionListener{
 		
 	}
 }
+
+
