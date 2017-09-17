@@ -69,7 +69,6 @@ public class Problem1Screen extends JFrame implements ActionListener{
 			outText.setText(remDupChars(inText.getText()));
 		}
 	}
-	
 	public String remDupChars(String str){
 		if(str.length()<=1){
 			return str;
@@ -81,4 +80,3 @@ public class Problem1Screen extends JFrame implements ActionListener{
 		}
 	}
 }
-
