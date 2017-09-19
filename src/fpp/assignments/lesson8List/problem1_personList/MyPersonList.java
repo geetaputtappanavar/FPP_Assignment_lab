@@ -53,7 +53,6 @@ public class MyPersonList {
 				break;
 			}
 		}
-		
 		if(index == -1) {
 			return false;
 		}else {
