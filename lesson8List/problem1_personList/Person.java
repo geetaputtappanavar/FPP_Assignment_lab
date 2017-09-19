@@ -15,7 +15,6 @@ class Person {
 		return lastName;
 	}
 
-	// chnage to all objs in al
 	@Override
 	public String toString() {
 		return "Person [lastName=" + lastName + ","+"FirstName=" + firstName +","+ "Age=" + age + "]";

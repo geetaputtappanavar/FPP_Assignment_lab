@@ -95,5 +95,4 @@ public class MyPersonList {
 	public int size() {
 		return size;
 	}
-
 }
