@@ -25,5 +25,11 @@ public class Main {
 		
 		System.out.println(sum);
 	}
-
 }
+
+
+/*Input and Output:
+	
+Output:
+	629000.0
+*/
